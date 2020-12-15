@@ -51,4 +51,6 @@ Rather than measure success by only the familiar product KPI's such as DAU/MAU, 
 - School Attendance
 
 # How to Contribute
-
+Visit our [Contributing](Contributing.md) page to learn how to get involved
+# How to Donate
+[America Scores Bay Area is a nonprofit 501(c)3 organizations. Your donations on our website](https://www.americascoresbayarea.org/donate) support program delivery and quality for students. This open source effort is part of that strategy, so your donation means better outreach to developers and qualified technology companies as well as supporting coaches, staff, and equipment.
