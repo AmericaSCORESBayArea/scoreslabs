@@ -1,7 +1,7 @@
 # scoreslabs OS Manifesto
 ![](images/asba_logo_and_seal.jpg)
-Open Source Strategy -- Why and How
-# Documentation Strategy
+## Open Source Strategy -- Why and How
+## Documentation Strategy
 Because Communication is Essential to Collaboration
 ## Overall Values Emphasizing Impact Are Maintained in /Scoreslabs and Designed to Help Developers Discover and Connect
 - *America Scores* Mission and Brand are visible and reflected so participants can gain a deep understanding of the long term purpose of their contribution
