@@ -36,7 +36,7 @@ However, the nature of Scores' program further enables a set of needs typically 
 - Policy Strategy and Leadership
 - Experiments, Creative Technology, Hacking, Repurposing
 ## Benefits to Impact Organizations and Sector
-- Nonprofits active in Open Source typically have a technology-centered objective. Social Impact nonprofits, in particular, depend on discounts from the most established product and platform companies to have access to digital tools at all. The 
+- Nonprofits active in Open Source typically have a technology-centered objective. Social Impact nonprofits, in particular, depend on discounts from the most established product and platform companies to have access to digital tools at all. 
 ### Enabling Tech Disruptions
 ### Re-Enfranchising Target Communities
 ## Benefits to Developers
@@ -50,7 +50,9 @@ Rather than measure success by only the familiar product KPI's such as DAU/MAU, 
 - Cognitive Load
 - Lifestyle Coherence
 - School Attendance
-
+### Are We Ready for Open Source Development? ###
+The evolving reality of collaborative, open source, looks compellingly like the twin worlds of Education and Athletics (among our favorites, Poetry and Soccer) and we need to bring our intuition from the collaborate realities of Scores Program but also as stakeholders in the future of tech.
+- The /OpenSourceReadinessChecklist.md is our first attempt to establish criteria before making the ScoresLabs repos public.
 # How to Contribute
 Visit our [Contributing](contributing.md) page to learn how to get involved
 # How to Donate
