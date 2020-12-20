@@ -54,8 +54,9 @@ Rather than measure success by only the familiar product KPI's such as DAU/MAU, 
 The evolving reality of collaborative, open source, looks compellingly like the twin worlds of Education and Athletics (among our favorites, Poetry and Soccer) and we need to bring our intuition from the collaborate realities of Scores Program but also as stakeholders in the future of tech.
 - The [OS Readiness Checklist](/OpenSourceReadinessChecklist.md) is our first attempt to establish criteria before making the ScoresLabs repos public.
 # How to Contribute
-Visit our [Contributing](contributing.md) page to learn how to get involved
-# How to Donate
+## Develop
+Visit our [Contributing](contributing.md) page to learn how to get involved. We need software developers, DevOps specialists, Designers of all types, Writers, and Visionaries
+## or Donate
 [America Scores Bay Area is a nonprofit 501(c)3 organizations. Your donations on our website](https://www.americascoresbayarea.org/donate) support program delivery and quality for students. This open source effort is part of that strategy, so your donation means better outreach to developers and qualified technology companies as well as supporting coaches, staff, and equipment.
 # License
 We are presently sharing all repos in the AmericaScoresBayArea organization under a [Creative Commons International 4.0 license](/LICENSE)![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
