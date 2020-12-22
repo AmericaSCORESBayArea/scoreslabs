@@ -2,7 +2,7 @@
 ![scoreslabs](images/ScoresLabs_logo_v3@0.25x.png)
 ## Before you Begin
 Before you dive in, pay a visit to http://americascoresbayarea.org and http://americascores.org and see who your work will be helping, directly or indirectly.
-## Review the active repos under https://github.com/AmericaSCORESBayArea
+## Review the active projects on [scoreslabs/Projects](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/projects.md)
 ## Visit the Github Code of Conduct
 https://github.com/github/docs/blob/main/CODE_OF_CONDUCT.md
 We subscribe to the Github Code of Conduct and enforce its rules in this Org.
@@ -136,11 +136,3 @@ When you open a pull request, you must fill out the "Ready for review" template 
 We may ask for changes to be made before a PR can be merged, either using [suggested changes](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request) or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
 
 As you update your PR and apply changes, mark each conversation as [resolved](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#resolving-conversations).
-
-## Windows
-
-This site can be developed on Windows, however a few potential gotchas need to be kept in mind:
-
-1. Regular Expressions: Windows uses `\r\n` for line endings, while Unix based systems use `\n`. Therefore when working on Regular Expressions, use `\r?\n` instead of `\n` in order to support both environments. The Node.js [`os.EOL`](https://nodejs.org/api/os.html#os_os_eol) property can be used to get an OS-specific end-of-line marker.
-1. Paths: Windows systems use `\` for the path separator, which would be returned by `path.join` and others. You could use `path.posix`, `path.posix.join` etc and the [slash](https://ghub.io/slash) module, if you need forward slashes - like for constructing URLs - or ensure your code works with either.
-1. Bash: Not every Windows developer has a terminal that fully supports Bash, so it's generally preferred to write [scripts](/script) in JavaScript instead of Bash.
