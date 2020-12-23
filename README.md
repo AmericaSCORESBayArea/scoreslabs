@@ -25,6 +25,8 @@ Our investment in Open Source is in flexiblity, velocity, and human-centered dev
 Open Source development has proven an excellent environment to build _safe and secure technology_. Protecting students in their daily lives requires understanding what's changing, strong collaboration networks, and ability to quickly implement solutions. The analogy to how open source strategy addresses technical security and stability is well-aligned with student safety and futures.
 ### Benefits to Scores' Coaches
 Scores coaches are constantly working to improve their own skills, tools, and processes. They need technology that responds to their evolving needs the same way they respond to their students and teams. Scores coaches not only make important customers, they provide leadership and insight that is rare in most relationships between developers and customers, where one or two stakeholders, or researchers, speak for many. Scores coaches are enabled UX researchers as well as front-line users.
+## Data Privacy is a Top Objective ##
+While developer efficiency is important, we can't risk exposing private data to the world. This is why we are actively controlling access to teams, repos, and platforms. The [Data Privacy Agreement](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/DataPrivacyAgreement.md) is a required read for potential contributors, and we need it signed before we can add you to the team.
 ### Benefits to Scores' Communities
 Among the standard concerns for underserved communities where Scores works, we find:
 - Access to Technology
@@ -41,8 +43,12 @@ However, the nature of Scores' program further enables a set of needs typically 
 ### Re-Enfranchising Target Communities
 ## Benefits to Developers
 ### Professional Benefits
+In addition to the opportunity to collaborate with smart and experienced developers, we encourage you to make professional connections, respectfully. You may also cite your contributions in your professional resume and online profiles. 
 ### Personal Benefits
+Your contributions here are impactful and meaningful. We will do our best to provide evidence of both the needs we seek to meet as well as evidence of what's been successful and what needs improvement. We encourage both creativity and rigor in everything we do, and personal satisfaction.
 ## Benefits to the the Tech Industry
+Open Source has demonstrated benefits to innovation as well as to major issues facing both Humanity and Industry. We want to follow in the footsteps of pioneers of Open Source, like Mozilla, Apache, Linux...
+What we think is novel here is America Scores Bay Area, as a mission-focused nonprofit that is not directly STEM focused. Rather, the skills of self-confidence, communication, teamwork, advocacy, and community service that come from the Soccer-Poetry-Service-Learning program are preparing the future leaders of business, community, and technology. We intend the Students and Coaches gain experience as technology stakeholders and influencers, more than basic consumers
 ### De-Risking Human Factors
 ### Impact-Based Development
 Rather than measure success by only the familiar product KPI's such as DAU/MAU, Acquisition Costs, Bounces and Referrers, we emphasize indirect and exponential benefits, for example...
