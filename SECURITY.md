@@ -14,6 +14,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 If you discover a vulnerabiity in code or exposed data, 
-- [ ] Post an issue in the respective repo with SECURITY RISK: in the header.
+- [ ] Either Enter a [Draft Security Advisory](https://github.com/AmericaSCORESBayArea/scoreslabs/security/advisories) or Post an issue in the respective repo with SECURITY RISK: in the header.
 - [ ] Open a discussion item with the team and include the issue link
 - [ ] If any action can be taken to temporarily resolve the issue, such as blocking access to a service, please send an advisory email to support@americascoresbayarea.org
