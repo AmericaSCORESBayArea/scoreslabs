@@ -1,7 +1,7 @@
 # Contributing to AmericaSCORESBayArea/scoreslabs
 ![scoreslabs](images/ScoresLabs_logo_v3@0.25x.png)
 ## Before you Begin
-Before you dive in, pay a visit to http://americascoresbayarea.org and http://americascores.org and see who your work will be helping, directly or indirectly.
+Before you dive in, pay a visit to https://americascoresbayarea.org and https://americascores.org and see who your work will be helping, directly or indirectly.
 ## Review the active projects in [scoreslabs/Projects](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/projects.md)
 ## Visit the Github Code of Conduct
 https://github.com/github/docs/blob/main/CODE_OF_CONDUCT.md
