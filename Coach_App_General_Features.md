@@ -2,7 +2,7 @@
 
 ## Coach App Requirements
 
-The UX for the coach app to Upsert Teams, Team-Seasons, Enrollments, Students (Contacts), and Sessions, are described here: [America Scores Session and Team Season Changes on-the-fly](https://asba.quip.com/XP4VAKNxFzAC)
+The UX for the coach app to Upsert Teams, Team-Seasons, Enrollments, Students (Contacts), and Sessions, are described here: [America Scores Session and Team Season Changes on-the-fly](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/Changes%20to%20Sessions%20and%20Team%20Seasons%20on-the-fly.md)
 
 ## Data Requirements
 
