@@ -22,15 +22,16 @@ Objects and Fields
 * Session
     * Session Date, Session Time, Duration, and Type are needed for read and write
 
-
+## Coach-App Data Flow
+![App Flow](images/CoachApp_Mobile_Flow.png)
 
 ## External Reporting Requirements
 
 Attendance and Enrollments are reported on a quarterly or monthly basis to external subscriber systems via an automation service. This service needs to request data from the API as well as sync back updates to corresponding objects.
 
-### OFCY Example
+### District1 Example
 
-The Oakland Unified Schools system is accessed only via Web. This system must be fully populated with student identifying information, enrollment in Scores teams, and attendance, every 3 months in order for Scores to receive payment from the district for afterschool programming, by contract. Revenues may be impacted by incomplete reporting as well as late submission. Hence, it is revenue and mission critical that the Scores and OFCY systems be in close synchronization.
+The School District 1 system is accessed only via Web. This system must be fully populated with student identifying information, enrollment in Scores teams, and attendance, every 3 months in order for Scores to receive payment from the district for afterschool programming, by contract. Revenues may be impacted by incomplete reporting as well as late submission. Hence, it is revenue and mission critical that the Scores and DISTRICT1 systems be in close synchronization.
 San Francisco Unified and other school districts in the Bay Area, as well as nationally, follow the same pattern with similar implementation, built on the concept of manual data entry.
 Some systems provide support for “spreadsheet upload” but no modern API aside from the Web GUI.
 The mechanism for external entry and extraction of data with these systems in documented elsewhere, but the API requirements for the Mulesoft-Salesforce interface should be considered critical.
