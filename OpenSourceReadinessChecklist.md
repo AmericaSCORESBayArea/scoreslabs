@@ -15,4 +15,5 @@ Before we declare a repo and/or project is open to contributions, the following 
 - [X] Developer Pages are enabled, including a plan for showcase material, if it is not already integrated
 - [X] SECURITY Policy enabled
 - [ ] Developer Agreement posted
+- [ ] Add badges to scoreslabs and sub repositories to aid clarity and collaboration
 Copy the above list into each new repo and when each item has been ticked, it is a candidate for going public. Yay!
