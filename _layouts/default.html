@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% seo %}
+    {% if jekyll.environment == 'production' %}
+      {% include google-analytics.html %}
+    {% endif %}
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link type="text/css" href="assets/css/landing-page.min.css" rel="stylesheet">
+
+    <style>
+/*.portfolio-item {
+  margin-bottom: 30px;
+}*/
+
+.pagination {
+  margin-bottom: 30px;
+}
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="{{ site.url }}">Open Source</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.github.owner_url }}">GitHub</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="{{ site.about_url }}">About me</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.github.repository_url }}">Fork this site</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        {{ content }}
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+	<p class="m-0 text-center text-white">
+	  Copyright &copy; {{ 'now' | date: '%Y' }} <a href="{{ site.about_url }}" style="color:white;">America SCORES Bay Area</a><br>
+          <span class="small">Last updated: {{ 'now' | date_to_rfc822 }}</span>
+	</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Core -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Optional plugins -->
+    <!-- <script src="assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script> -->
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+
+</html>
