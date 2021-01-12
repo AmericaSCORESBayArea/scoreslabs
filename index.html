@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<!-- Page Heading -->
+<h1 class="my-4">Welcome to Scores Labs</h1>
+<p><em>the Innovation Space for America Scores Bay Area</em></p>
+
+<div class="row">
+{% assign repos = site.github.public_repositories | sort: 'id' %}
+{% for repo in repos %}
+<div class="col-lg-4 col-sm-6 portfolio-item my-3">
+  <div class="card h-100">
+    <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+    <h5 class="card-header">
+      <a href="{{ repo.html_url  }}" style="color: black;" class="card-link">{{ repo.name }}</a>
+      <span class="badge badge-info">{{ repo.language }}</span>
+      {% if repo.license %}{% if repo.license.spdx_id %}{% if repo.license.spdx_id != "NOASSERTION" %}
+      <a href="https://spdx.org/licenses/{{ repo.license.spdx_id }}.html" target="_blank" class="badge badge-primary">
+      {{ repo.license.spdx_id }}</a>{% endif %}{% endif %}{% endif %}
+      {% if repo.archived %}<span class="badge badge-secondary">Archived</span>{% endif %}
+    </h5>
+    <div class="card-body">
+      <a class="github-button" href="https://github.com/{{ repo.full_name }}/fork" data-show-count="true" aria-label="Fork {{ repo.full_name }} on GitHub">Fork</a>
+      <a class="github-button" href="https://github.com/{{ repo.full_name }}" data-show-count="true" aria-label="Star {{ repo.full_name }} on GitHub">Star</a>
+      <p class="card-text">{{ repo.description | markdownify }}</p>
+      <!-- <a href="{{ repo.html_url }}" class="card-link">GitHub</a> -->
+      {% if repo.homepage and repo.homepage != "" %}<a href="{{ repo.homepage }}" class="card-link">Homepage</a>{% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+<h3 id="if-you-are-a-developer-first-check-out-this-list-of-our-open-source-projects">If you are a Developer, first check out <a href="/projects.html">this list of our open source projects</a></h2>
+<h3 id="information-on-contributing-our-commitments-to-privacy-and-manifesto-all-live-in-the-scores-labs-github-repository">Information on <a href="/contributing.md">Contributing</a>, our commitments to <a href="/DataPrivacyAgreement.html">Privacy</a>, and <a href="/README.md">manifesto</a> all live in the <a href="https://github.com/AmericaSCORESBayArea/scoreslabs">Scores Labs Github</a> repository.</h2>
+
+<h3 id="coach-app-flow-title">Attendance App Flow:</h3>
+<p>(Use the <em>right</em> and <em>left</em> arrows below to navigate through the flow)</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTkYWDmkuR6wU1KiuxOuCN0%2FCoach-Flow%3Fnode-id%3D2%253A14%26scaling%3Dscale-down" allowfullscreen></iframe>
+<!-- /.row -->
+
+<!-- Pagination -->
+<!-- <ul class="pagination justify-content-center">
+<li class="page-item">
+  <a class="page-link" href="#" aria-label="Previous">
+    <span aria-hidden="true">&laquo;</span>
+    <span class="sr-only">Previous</span>
+  </a>
+</li>
+<li class="page-item">
+  <a class="page-link" href="#">1</a>
+</li>
+<li class="page-item">
+  <a class="page-link" href="#">2</a>
+</li>
+<li class="page-item">
+  <a class="page-link" href="#">3</a>
+</li>
+<li class="page-item">
+  <a class="page-link" href="#" aria-label="Next">
+    <span aria-hidden="true">&raquo;</span>
+    <span class="sr-only">Next</span>
+  </a>
+</li>
+</ul> -->
+
