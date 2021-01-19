@@ -9,5 +9,5 @@ Signatories to this Agreement do agree to keep this information and access confi
 Add your github name, linked to your Github Profile, to this document, to indicate you agree to abide by these terms.
 
 ## Contributors
-[CritiqalPete](https://github.com/CritiqalPete)
-[archana-llamas](https://github.com/archana-llamas)
+* [CritiqalPete](https://github.com/CritiqalPete)
+* [archana-llamas](https://github.com/archana-llamas)
