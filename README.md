@@ -62,6 +62,7 @@ The evolving reality of collaborative, open source, looks compellingly like the 
 # How to Contribute
 ## Develop
 Visit our [Contributing](contributing.md) page to learn how to get involved. We need software developers, DevOps specialists, Designers of all types, Writers, and Visionaries. Our [Projects](/projects.md) is also important to understand what we are accomplishing with the work in each repo.
+Be sure to sign on to our simple [Developer Agreement](Developer_Agreement.md).
 ## or Donate
 [America Scores Bay Area is a nonprofit 501(c)3 organizations. Your donations on our website](https://www.americascoresbayarea.org/donate) support program delivery and quality for students. This open source effort is part of that strategy, so your donation means better outreach to developers and qualified technology companies as well as supporting coaches, staff, and equipment.
 # License
