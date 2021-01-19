@@ -6,6 +6,7 @@ The specifics of policy in application development and data management are limit
 In order to collaborate effectively, we provide access to developers to private repositories via membership in a Github Team. We also provide access, where appropriate to sandboxes, user interviews, unobfuscated data, and identities of organizations SCORES works with.
 Signatories to this Agreement do agree to keep this information and access confidential, not to share credentials, data, or means of reverse-engineering same.
 
-Add your name, including your github name, to this document, to indicate you agree to abide by these terms.
+Add your github name, linked to your Github Profile, to this document, to indicate you agree to abide by these terms.
 
 ## Contributors
+[CritiqalPete](https://github.com/CritiqalPete)
