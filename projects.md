@@ -22,6 +22,8 @@ Additional requirements include:
 - Review Mulesoft [Best Practices for API Developers](https://www.mulesoft.com/resources/api/development-best-practices) for additional recommendations
 - Supports field-level mappings for different external systems that share reporting
 
+## Overview
+![](images/anypoint_scores_app_overview.png)
 ## Salesforce Auth API
 [salesforce-auth-api](https://github.com/AmericaSCORESBayArea/salesforce-auth-api)
 ### Project Goal
