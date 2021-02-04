@@ -9,7 +9,7 @@ layout: default
 {% assign repos = site.github.public_repositories | sort: 'id' %}
 {% for repo in repos %}
 <div class="col-lg-4 col-sm-6 portfolio-item my-3">
-  <div class="card h-100">
+  <div class="card h-200">
     <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
     <h5 class="card-header">
       <a href="{{ repo.html_url  }}" style="color: black;" class="card-link">{{ repo.name }}</a>
