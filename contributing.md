@@ -1,5 +1,8 @@
 # Contributing to AmericaSCORESBayArea/scoreslabs
 ![scoreslabs](images/ScoresLabs_logo_v3@0.25x.png)
+## We Have Projects Developers, Designers, Researchers, and Creative Technologists
+Every Scores Labs project has a human user, stakeholder, and dependency. We try to be creative in our UX research and support for design, but the UI/UX we start with is typically prototyped first by a developer with very limited and general information about the people who will ultimately depend on it. Then, we try to iterate, discover, and polish. If you are a researcher, designer, data-scientist, artist, or even a game developer, we have something you can contribute to. 
+### Send a Request-to-Join to https://github.com/orgs/AmericaSCORESBayArea/teams/os-developers
 ## Before you Begin
 Before you dive in, pay a visit to https://americascoresbayarea.org and https://americascores.org and see who your work will be helping, directly or indirectly.
 ## Review the active projects in [scoreslabs/Projects](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/projects.md)
