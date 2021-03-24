@@ -54,6 +54,7 @@ You can contribute in several ways. This repo is where concepts are started and 
   - [:question: Support](#question-support)
   - [:earth_asia: Translations](#earth_asia-translations)
   - [:balance_scale: Site Policy](#balance_scale-site-policy)
+  - [:bulb: Propose] Some projects encourage new ideas for features and insights
 - [Starting with an issue](#starting-with-an-issue)
   - [Labels](#labels)
 - [Opening a pull request](#opening-a-pull-request)
