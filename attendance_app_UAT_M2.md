@@ -1,4 +1,5 @@
 # User Acceptance Testing Checklist for Milestone 2
+# Status: PASSED
 ## Target Date: Week of Feb 15
 ## Testers: Program Executive, Program Manager, Lead Coach
 ------
@@ -15,43 +16,41 @@ Feedback is captured for documentation of enhancements and issues to be addresse
 (MVP) Coach can complete an attendance update for an existing roster in a current session documentation
 #53 opened 18 minutes ago
 @CritiqalPete
-- [ ] Coach can login
-- [ ] Coach sees a list of teams, primarily their own
-- [ ] Coach can select a team that belongs to them
-- [ ] Coach can select an active session to view an attendance roster
-- [ ] Coach can update attendance status on any/all students in the roster
+- [x] Coach can login
+- [x] Coach sees a list of teams, primarily their own
+- [x] Coach can select a team that belongs to them
+- [x] Coach can select an active session to view an attendance roster
+- [x] Coach can update attendance status on any/all students in the roster
 #### Issues and Stories for Milestone
-- [ ] Bug: User sees an Invalid Code error after successful login :beetle:<br>
+- [x] Bug: User sees an Invalid Code error after successful login :beetle:<br>
 #25 opened on Dec 14, 2020 by CritiqalPete
 
-- [ ] Once a coach successfully authenticates with a build, their login should be automatic<br>
+- [x] Once a coach successfully authenticates with a build, their login should be automatic<br>
 #10 opened on Oct 19, 2020 by CritiqalPete
 
-- [ ] Views of Sessions should be titled as Sessions. Activity-type is always a property or description of a Session.<br>
+- [x] Views of Sessions should be titled as Sessions. Activity-type is always a property or description of a Session.<br>
 #44 opened 9 days ago by CritiqalPete
 
-- [ ] The View of Team Seasons should titled like "2021 Spring Teams" based on selected season HI Guideline/Recommendation<br>
+- [x] The View of Team Seasons should titled like "2021 Spring Teams" based on selected season HI Guideline/Recommendation<br>
 #45 opened 9 days ago by CritiqalPete
 
-- [ ] Coach Team List needs to default to current Season<br>
+- [x] Coach Team List needs to default to current Season<br>
 #35 opened 29 days ago by CritiqalPete
 
-- [ ] A clarifying message is displayed when a Coach selects a team with no enrollments in the visible season<br>
+- [x] A clarifying message is displayed when a Coach selects a team with no enrollments in the visible season<br>
 #43 opened 9 days ago by CritiqalPete
 
-- [ ] Coach can modify a team session schedule<br>
+- [x] Coach can modify a team session schedule<br>
 #18 opened on Nov 25, 2020 by CritiqalPete
 
-- [ ] The list of teams a coach can view is limited to the regions they are currently assigned to<br>
+- [x] The list of teams a coach can view is limited to the regions they are currently assigned to<br>
 #23 opened on Dec 6, 2020 by CritiqalPete
-
-- [ ] Coach can change the viewed Season from their home screen or when using a calendar to navigate<br>
+- [x] Coach can change the viewed Season from their home screen or when using a calendar to navigate<br>
 #46 opened 9 days ago by CritiqalPete
 
-- [ ] (iOS) Update Attendance button title misaligned with button :beetle:<br>
+- [x] (iOS) Update Attendance button title misaligned with button :beetle:<br>
 #51 opened 3 days ago by CritiqalPete
-
-- [ ] Students View not showing active enrollments :beetle:<br>
+- [x] Students View not showing active enrollments :beetle:<br>
 
 ## Reporting
 A transcript of the session will be provided for review by developers. Issues, feature requests, and qualitative feedback will be transcribed as tickets and stories for later review and prioritization for upcoming milestones.
