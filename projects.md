@@ -8,6 +8,21 @@
 - [student-registration](#student-registration)
 - [External-Sync-Robot](#External-Sync-Robot)
 
+## Latest Releases
+| **App**           | **Version** | **Link** | **Commit** | **Comments** |
+|-------------------|-------------|----------|------------|--------------|
+| Coach App iOS     |             |          |            |              |
+| Coach App Android |             |          |            |              |
+
+## Help Needed Immediately
+| **Task**                                                                             | **Skill(s)**                           | **Project**                                                                               | **Ticket**                                                                           | **Status**                 |
+|--------------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------|
+| Design and Configure Salesforce DB to store and track waivers and acceptance history | Salesforce Developer                   | [Salesforce Environment](https://github.com/AmericaSCORESBayArea/salesforce-environment)  | [Story 13](https://github.com/AmericaSCORESBayArea/salesforce-environment/issues/13) | needs help                 |
+| Stylize and Deploy for Regions                                                       | React Web                              | [Student Registration](https://github.com/AmericaSCORESBayArea/student-registration)      | [Story 117](https://github.com/AmericaSCORESBayArea/student-registration/issues/117) | Urgent (Heroku exp needed) |
+| Design and Implement Enrollment Projections by Team Season                           | Salesforce Development                 | [Salesforce Environment](https://github.com/AmericaSCORESBayArea/salesforce-environment)  | [Story 12](https://github.com/AmericaSCORESBayArea/salesforce-environment/issues/12) | Needs to Start in December |
+| Data Infographic Design for Tableau                                                  | Tableau custom Viz/mapping, Web design | [Scores Data Science](https://github.com/AmericaSCORESBayArea/AmericaScores-Data-Science) | TBD                                                                                  | Looking for Design         |
+
+
 ## Salesforce Data API
 [AmericaSCORESBayArea/salesforce-data-api](https://github.com/AmericaSCORESBayArea/salesforce-data-api)
 ### Project Goal
