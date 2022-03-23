@@ -30,7 +30,45 @@ layout: default
 </div>
 {% endfor %}
 </div>
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<style>
+  .myForm > * {
+   font: 1.4em 'Verdana', sans-serif; 
+  }
+  .myForm {
+    display: grid;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em .5em;
+    background: beige;
+    padding: 1.2em;
+    width: 36em;
+  }
+  .myForm > label,
+  .myForm > fieldset  {
+    grid-column: labels;
+    grid-row: auto;
+  }
+  .myForm > input, 
+  .myForm > select,
+  .myForm > textarea,
+  .myForm > button {
+    grid-column: controls;
+    grid-row: auto;
+    padding: .4em;
+    border: 0;
+  }
+  .myForm > fieldset {
+    grid-column: span 2;
+  }  
+  .myForm > button {
+    background: darkkhaki;
+    color: white;
+    }
+  .myForm > textarea {
+    min-height: 3em;
+    }
+</style>
+<form class="myForm" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D50000000NVw6">
 <input type=hidden name="retURL" value="http://developers.americascoresbayarea.org">
@@ -50,7 +88,11 @@ layout: default
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-Volunteer Notes:<textarea  id="00N50000004Yd6C" name="00N50000004Yd6C" rows="5" type="text" wrap="soft"></textarea><br>
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+Please Share your Github ID and any notes about your interests:<textarea  id="00N50000004Yd6C" name="00N50000004Yd6C" rows="5" type="text" wrap="soft"></textarea><br>
 
 <input type="submit" name="submit">
 
