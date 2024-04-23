@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Page Heading -->
 <h1 class="my-4">Welcome to Scores Labs</h1>
-<p><em>the Innovation Space for America Scores Bay Area</em></p>
+<p><em>the Innovation Space for America Scores Bay Area!</em></p>
 
 <div class="row">
 {% assign repos = site.github.public_repositories | sort: 'id' %}
@@ -30,6 +30,47 @@ layout: default
 </div>
 {% endfor %}
 </div>
+
+<style>
+  .myForm > * {
+   font: 1.4em 'Verdana', sans-serif; 
+  }
+  .myForm {
+    display: grid;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em .5em;
+    background: beige;
+    padding: 1.2em;
+    width: 36em;
+  }
+  .myForm > label,
+  .myForm > fieldset  {
+    grid-column: labels;
+    grid-row: auto;
+  }
+  .myForm > input, 
+  .myForm > select,
+  .myForm > textarea,
+  .myForm > button {
+    grid-column: controls;
+    grid-row: auto;
+    padding: .4em;
+    border: 0;
+  }
+  .myForm > fieldset {
+    grid-column: span 2;
+  }  
+  .myForm > button {
+    background: darkkhaki;
+    color: white;
+    }
+  .myForm > textarea {
+    min-height: 3em;
+    }
+</style>
+<a name="volunteerform"></a>
+<form class="myForm" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <div class="formContainer">
   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
@@ -80,11 +121,17 @@ layout: default
 
 <h3 id="if-you-are-a-developer-first-check-out-this-list-of-our-open-source-projects">If you are a Developer, first check out <a href="/projects.html">this list of our open source projects</a></h2>
 <h3 id="information-on-contributing-our-commitments-to-privacy-and-manifesto-all-live-in-the-scores-labs-github-repository">Information on <a href="/contributing.md">Contributing</a>, our commitments to <a href="/DataPrivacyAgreement.html">Privacy</a>, and <a href="/README.md">manifesto</a> all live in the <a href="https://github.com/AmericaSCORESBayArea/scoreslabs">Scores Labs Github</a> repository.</h2>
-
+<table>
+<tr>
+  <td>
 <h3 id="coach-app-flow-title">Attendance App Flow:</h3>
 <p>(Use the <em>right</em> and <em>left</em> arrows below to navigate through the flow)</p>
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="940" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrLVZnGjojwlfyNL6byCCZS%2FCoachApp_v3%3Fnode-id%3D1%253A131%26scaling%3Dmin-zoom%26page-id%3D0%253A1" allowfullscreen></iframe>
-<p>Example Reporting</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="940" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrLVZnGjojwlfyNL6byCCZS%2FCoachApp_v3%3Fnode-id%3D1%253A131%26scaling%3Dmin-zoom%26page-id%3D0%253A1" allowfullscreen></iframe></td>
+  <td>
+    <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/95f52569-5735-4ac7-9004-438d256c7750/page/p_sjc72xh0uc" frameborder="0" style="border:0" allowfullscreen></iframe></td>
+  </tr>   
+</table>
+    <p>Example Reporting</p>
 <div class='tableauPlaceholder' id='viz1632949438854' style='position: relative'>
 <noscript><a href='#'>
 <img alt='SCORES Reporting ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DevelopmentDashboards&#47;SCORESReporting&#47;1_rss.png' style='border: none' /></a>
