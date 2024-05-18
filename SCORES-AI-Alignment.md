@@ -8,3 +8,8 @@
 ## Best Practices
 - Product Goals involving autonomous functions, especially leveraging neural networks and "statistically trained" engines of should be reviewed for Alignment using well-planned Quality Assurance.
 - AI Systems must be monitored, and interruptable.
+---
+### Suggestions
+- Include SCORES student and coach in reviews
+- Copy/link relevant statements from platform partners (Salesforce, OpenAI, etc)
+
