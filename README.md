@@ -1,5 +1,7 @@
 # scoreslabs OS Manifesto
 ![](images/asba_logo_and_seal.jpg)
+## NEW! SCORES Labs AI-Alignment Premise
+[This in-process set of guidelines](https://github.com/AmericaSCORESBayArea/scoreslabs/blob/main/SCORES-AI-Alignment.md) is for collaborators to help us build strong protections around our innovations and to set a precedent for other teams to follow.
 ## Open Source Strategy -- Why and How
 ## Documentation Strategy
 Because Communication is Essential to Collaboration
