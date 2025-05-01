@@ -1,6 +1,6 @@
 # Sessions. Start Time and End Time
 
-Effective since: **May 1st**
+**Effective as of May 1, 2025**
 
 This document outlines how we handle session start and end times across all three levels: **Salesforce database**, **API server**, and **frontend apps**. It can be used as a reference for any other similar cases (for example, any other object that uses `time` field, but not `datetime` or `date`).
 
