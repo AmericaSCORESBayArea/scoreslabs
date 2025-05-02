@@ -47,7 +47,7 @@ In the frontend applications, all session times must be handled with proper conv
 **For Mulesoft (API server) developers:**  
 Add `-Duser.timezone=UTC` to your VM arguments when testing or developing the app locally.  This ensures all time conversions behave consistently with how the deployed instances operate.
 
-**Note regarding the Old Coach app and its Legacy Server:**  
+**Note regarding the Old Coach app and its API Legacy Server:**  
 To address time issues with the old Coach app (which we cannot modify), we adjusted the API logic as follows:
 - **POST & PATCH**: Add 7 hours to convert California time to UTC.
 - **GET**: Subtract 3 hours (a net adjustment of -7h + 4h) to align with the legacy Coach app's behavior.
