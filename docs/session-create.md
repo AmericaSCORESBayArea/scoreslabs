@@ -31,7 +31,7 @@ A task is created *only if*:
 | `SessionDate`  | `"2025-05-21"`     | **Yes**  | `Session_Date__c`         |
 | `SessionStart` | `"18:00"`          | No       | `Session_Start__c`        |
 | `SessionEnd`   | `"19:30"`          | No       | `Session_End__c`          |
-| `SessionTopic` | `"Dribbling"`      | No       | `Session_Topic__c`        |
+| `SessionTopic` | `"Game Day"`      | No       | `Session_Topic__c`        |
 | `CoachId`      | `"003…"`           | No\*     | (needed for task creation)|
 
 \*Only required if you want the system to create the task.
